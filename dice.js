@@ -28,7 +28,7 @@ function dice() {
             if (dice[j].match("^[0-9]*$")) {
               let d = document.createElement('img');
 
-              d.style.width = "30px";
+              d.style.width = "50px";
               d.src = chrome.extension.getURL("characters/" + ("0" + dice[j]).slice(-2) + ".jpg");
               if (first) {
                 blockquote.appendChild(document.createElement('br'));
