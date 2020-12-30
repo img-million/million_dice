@@ -1,0 +1,22 @@
+{
+   "description": "million_dice_viewer",
+   "manifest_version": 2,
+   "name": "million_dice",
+   "version": "1.0",
+   "web_accessible_resources": [
+      "*.jpg"
+   ],
+   "background": {
+      "scripts": ["script.js"],
+      "persistent": false
+   },
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon.png"
+   },
+   "permissions": [
+      "contextMenus",
+      "activeTab"
+   ]
+}
